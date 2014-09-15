@@ -15,12 +15,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   height: 600px;
 }
 
-.col {
+.cell {
   border: 1px solid black;
   width: 33.33%;
   height: 200px;
   float: left;
   font-size: 200px;
   text-align: center;
+}
+
+.player1_cell {
+  color: cornflowerblue;
+}
+
+.player2_cell {
+  color: cyan;
 }
 
