@@ -39,7 +39,7 @@ $(document).ready(function() {
         } else if (checkBoard(winningCombos[i], 'o', state)) {
           handleWinner("x");
         } else if (turn == 9) {
-          alert("Draw!");
+          handleDraw();
           break;
         }
       }
@@ -70,7 +70,8 @@ $(document).ready(function() {
 
   function handleDraw() {
     alert("Draw!!");
-    return false;
+    $('.cell').empty();
+    window.location.reload();
     // implement clearing cells here
     // restart game
   }
