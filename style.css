@@ -24,11 +24,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   text-align: center;
 }
 
-.player1_cell {
+.player1 {
   color: cornflowerblue;
 }
 
-.player2_cell {
+.player2 {
   color: cyan;
 }
 
