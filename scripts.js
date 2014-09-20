@@ -56,6 +56,7 @@ $(document).ready(function() {
 
   $('button').bind('click', function() {
     window.location.reload();
+    
   });
 
 });  
