@@ -3,4 +3,4 @@ tictactobi
 
 Having a bit of fun learning jQuery.
 
-Feel free to take it for a spin [here](http://tvweinstock.github.io/tictactobi/).
+Grab a friend and challenge them to a friendly [match](http://tvweinstock.github.io/tictactobi/)!
